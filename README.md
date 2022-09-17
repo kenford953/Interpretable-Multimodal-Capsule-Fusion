@@ -18,4 +18,4 @@ To retrieve the meta information and the raw data, please refer to the [SDK for 
 ~~~~
 python main_grid_search.py [--FLAGS]
 ~~~~
-It will train and test the model with different hyperparameter settings. The experimental results for different settings and the best setting will be printed in the terminal. The pretrained model for each setting will be saved in './pretrained_models'.
+It will train and test the model with different hyperparameter settings. The experimental results for different settings and the best setting will be printed in the terminal. The pretrained model for each setting will be saved in './pretrained_models'. Note that we train our model for each emotion in iemocap dataset. When you implement the experiment for iemocap, you need to modify the arguments '--dataset' and '--emotion'.
